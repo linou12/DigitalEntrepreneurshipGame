@@ -53,8 +53,7 @@ def extract_business_ideas(response_text):
         )
     if optimal_matches_number:
         results["Optimal Ideas"] = [
-            {"Idea": match[0], "Reason": match[1], "FeedBack": match[2]}
-            for match in optimal_matches_number
+            {"Idea": match[0], "Reason": match[1]} for match in optimal_matches_number
         ]
 
     if optimal_match and not mvp_matches:
