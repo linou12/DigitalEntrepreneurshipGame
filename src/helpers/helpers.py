@@ -1,6 +1,103 @@
 import re
 import pandas as pd
 
+def extract_not_optimal_ideas(text):
+    # Regular expression to match each Not Optimal Idea and Reason
+    pattern = re.compile(
+        r"'Not Optimal Idea': '(.*?)',\n\s*'Reason': '(.*?)'",
+        re.DOTALL
+    )
+
+    # Find all matches in the provided text
+    matches = pattern.findall(text)
+
+    # Prepare extracted data
+    not_optimal_ideas = []
+    for match in matches:
+        idea, reason = match
+        not_optimal_ideas.append({
+            "Not Optimal Idea": idea.strip(),
+            "Reason": reason.strip()
+        })
+
+    return not_optimal_ideas
+
+# Function to extract Sub-Optimal Ideas from text
+def extract_suboptimal_ideas(text):
+    # Regular expression to match each Sub-Optimal Idea and Reason
+    pattern = re.compile(
+        r"'Sub-Optimal Idea': '(.*?)'\n\s+'Reason': '(.*?)'",
+        re.DOTALL
+    )
+
+    # Find all matches in the provided text
+    matches = pattern.findall(text)
+
+    # Prepare extracted data
+    suboptimal_ideas = []
+    for match in matches:
+        idea, reason = match
+        suboptimal_ideas.append({
+            "Sub-Optimal Idea": idea.strip(),
+            "Reason": reason.strip()
+        })
+
+    return suboptimal_ideas
+
+def extract_not_optimal_ideas(text):
+    """
+    Extract 'Not Optimal' ideas and their reasons from a given text using regex.
+    
+    Parameters:
+        text (str): Input text containing ideas and reasons.
+    
+    Returns:
+        list of dict: List containing extracted ideas and reasons.
+    """
+    pattern = re.compile(r"'Not Optimal Idea': '(.*?)',\n\s*'Reason': '(.*?)'", re.DOTALL)
+    matches = pattern.findall(text)
+    return [{"Not Optimal Idea": idea.strip(), "Reason": reason.strip()} for idea, reason in matches]
+
+# ### Save extracted ideas to an Excel file
+def save_ideas_to_excel(ideas, file_path='GeneratedVariants.xlsx', sheet_name='Sheet1'):
+    """
+    Save extracted ideas to an Excel file.
+    
+    Parameters:
+        ideas (list of dict): List of ideas to save.
+        file_path (str): Path to the Excel file.
+        sheet_name (str): Name of the sheet to append the data to.
+    """
+    # Prepare the DataFrame from ideas
+    df = pd.DataFrame([{
+        "Idea": idea["Not Optimal Idea"],
+        "Task": "Not Optimal",
+        "Reason": idea["Reason"],
+        "Cost": "",
+        "Feedback": "",
+        "Status": "Not Optimal"
+    } for idea in ideas])
+
+    # Append data to an existing Excel file
+    with pd.ExcelWriter(file_path, engine='openpyxl', mode='a', if_sheet_exists='overlay') as writer:
+        df.to_excel(writer, sheet_name=sheet_name, index=False, header=False, startrow=writer.sheets[sheet_name].max_row)
+    
+    print(f"Not Optimal Ideas successfully appended to {file_path}")
+
+# ## Evaluation Function for Ideas and MVPs
+# ### Load Excel file into a DataFrame
+def load_excel_to_dataframe(file_path):
+    """
+    Load an Excel file into a pandas DataFrame.
+    
+    Parameters:
+        file_path (str): Path to the Excel file.
+    
+    Returns:
+        pd.DataFrame: DataFrame containing the data from the Excel file.
+    """
+    return pd.read_excel(file_path)
+
 
 def extract_business_ideas(response_text):
     # Define regex patterns to match the three types of ideas
