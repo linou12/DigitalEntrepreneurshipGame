@@ -1,0 +1,52 @@
+{
+    "Idea 1": {
+        "Optimal MVP": "Kickstarter Campaign",
+        "Reason": "Using a platform like Kickstarter for a fundraising campaign would allow the team to generate early interest in the product and attract potential customers. The platform also offers a way to gain feedback from potential customers about what they value in the product.",
+        "Feedback": "This proves to be an optimal move because it doesn't require heavy up-front investment, provides a platform for market testing, and can also generate early capital for the team."
+    },
+    "Idea 2": {
+        "Optimal MVP": "Bike Riding event with Bamboo Bikes",
+        "Reason": "Organizing an event where people can experience riding the bamboo bikes can be a great way to generate interest and gather feedback on the actual experience of using the bike.",
+        "Feedback": "While it requires some investment to build demo bikes, it provides a direct way to vet the product with potential customers leading to more relevant and experiential feedback."
+    },
+    "Idea 3": {
+        "Optimal MVP": "Influencer Marketing",
+        "Reason": "Working with influencers espousing sustainability and eco-friendly lifestyle to promote the bikes in their circles can be a good strategy to engage the target audience.",
+        "Feedback": "While finding suitable influencers and convincing them to work with a new brand can be challenging, the investment is often worth it due to the strong connections these influencers have with their followers."
+    },
+    "Idea 4": {
+        "Optimal MVP": "Free Test Rides",
+        "Reason": "Offering free test rides in a local park or similar setup can generate interest and provide the team with real-world feedback.",
+        "Feedback": "While the investment in terms of logistics and creating enough test bikes could be significant, the feedback from actual users and the word-of-mouth marketing could prove invaluable."
+    },
+    "Idea 5": {
+        "Optimal MVP": "Crowdfunded Limited Edition Bikes",
+        "Reason": "Offering a crowdfunded 'Limited Edition' bike can not only generate funds but also create an exclusive community of early adopters.",
+        "Feedback": "While it may take some effort to create the unique design for the limited edition, the premium price and the exclusivity could draw in a passionate subset of customers, proving the product-market fit."
+    },
+    "Idea 6": {
+        "Optimal MVP": "Virtual Reality Experience",
+        "Reason": "Investing in a VR experience where potential customers can visualise riding the bike can be a modern and trendy alternative to physical test drives.",
+        "Feedback": "While it requires significant investment in technology, it can generate significant buzz around the product and help reach tech-savvy, younger market segments that value such experiences."
+    },
+    "Idea 7": {
+        "Optimal MVP": "Pop-Up Shop in Eco Festivals",
+        "Reason": "Setting up a pop-up shop at environmentally-focused events can help reach the target market of sustainability-conscious consumers directly.",
+        "Feedback": "While there are expenses related to the setup, the ability to interact directly with the potential customers and gather feedback can provide invaluable insights."
+    },
+    "Idea 8": {
+        "Optimal MVP": "Online Community Building",
+        "Reason": "Creating a strong online community around sustainability, cycling, and eco-friendly lifestyle can serve as a platform to share progress, gather feedback, and promote the bikes.",
+        "Feedback": "Creating a community may require significant time and effort, but the returns in terms of customer relationships, loyalty and organic marketing could be substantial."
+    },
+    "Idea 9": {
+        "Optimal MVP": "Partnership with Eco-friendly Caf\u00e9s/Stores",
+        "Reason": "Aligning with brands that share the same values of sustainability and eco-friendliness can generate mutual benefits and access to a warm audience.",
+        "Feedback": "While partnerships are not guaranteed and require negotiation skills, they provide an opportunity to position the brand among like-minded consumers and extend reach."
+    },
+    "Idea 10": {
+        "Optimal MVP": "Subscription Model",
+        "Reason": "A subscription service where users pay a monthly fee to use the bike and get maintenance included could be an innovative way to break the upfront cost barrier and attract users.",
+        "Feedback": "The complexity of managing a subscription service is offset by the regular income, long-term customer relationships, and being able to gather ongoing feedback."
+    }
+}

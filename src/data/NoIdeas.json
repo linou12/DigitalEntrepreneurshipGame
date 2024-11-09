@@ -1,0 +1,52 @@
+{
+    "Idea 1": {
+        "Not Optimal Idea": "Selling the bamboo bikes through discount retailers or hypermarkets.",
+        "Reason": "The goal is to increase visibility and reach a larger audience. It's convenient for consumers to find the product in familiar places.",
+        "Feedback": "This strategy contradicts the brand's premium and sustainability positioning. Such retailers may not cater to the company's target audience, and could lead to brand dilution."
+    },
+    "Idea 2": {
+        "Not Optimal Idea": "Investing heavily in TV advertising.",
+        "Reason": "The aim is to quickly generate awareness and demand for the product through mass media.",
+        "Feedback": "This strategy deviates from the sustainability aspect, as TV adverts can have high CO2 emissions. Also, this medium may not target the sustainable and high-quality consumer group effectively."
+    },
+    "Idea 3": {
+        "Not Optimal Idea": "Diversifying the product line to include cheap plastic accessories.",
+        "Reason": "This could potentially increase profit margins and offer a more comprehensive solution to consumers.",
+        "Feedback": "Plastic accessories clash with the company's sustainability image and may turn off environmentally-conscious customers."
+    },
+    "Idea 4": {
+        "Not Optimal Idea": "Lowering quality standards to increase profit margins.",
+        "Reason": "This allows the company to potentially attract more customers with the lowered price.",
+        "Feedback": "Compromising the quality contradicts the high-quality and sustainability ethos of MyBambooBike. This could damage the brand's reputation."
+    },
+    "Idea 5": {
+        "Not Optimal Idea": "Using non-eco-friendly shipping materials to lower shipping costs.",
+        "Reason": "The goal is to increase profitability by reducing operational costs.",
+        "Feedback": "This contradicts MyBambooBike's strong sustainability stance, which may disappoint customers and damage the brand's reputation."
+    },
+    "Idea 6": {
+        "Not Optimal Idea": "Generating demand through mass production.",
+        "Reason": "This aims to lower per unit production costs and potentially meet high demand.",
+        "Feedback": "Mass production can lead to waste and contradicts the careful, handcrafted, and sustainability ethos of the brand."
+    },
+    "Idea 7": {
+        "Not Optimal Idea": "Outsource all production to a far-off country with cheaper labor costs to slash production costs.",
+        "Reason": "The goal is to boost profits by reducing production costs.",
+        "Feedback": "Offshoring risks issues with quality control and doesn't align with the company\u2019s fair-trade commitment. It also increases CO2 emissions due to long transportation distances."
+    },
+    "Idea 8": {
+        "Not Optimal Idea": "Eliminating the after-sales services to save costs.",
+        "Reason": "This aims to achieve higher profitability by reducing the cost of operations.",
+        "Feedback": "Poor customer service can lead to dissatisfaction of customers and harm the brand\u2019s reputation. This strategy also neglects the goodwill and repeat business that good after-sales service can generate."
+    },
+    "Idea 9": {
+        "Not Optimal Idea": "Using aggressive sales techniques to sell the product.",
+        "Reason": "The goal is to quickly generate sales and achieve short-term profitability.",
+        "Feedback": "Aggressive sales techniques may turn off potential customers and negate the idea of sustainable, conscious purchasing."
+    },
+    "Idea 10": {
+        "Not Optimal Idea": "Using synthetic chemicals for faster and higher yield of bamboo.",
+        "Reason": "The goal is to have more bamboo yields to meet the demand for bamboo bikes.",
+        "Feedback": "Introducing synthetic chemicals goes directly against the sustainability image of the company, potentially damaging the brand's reputation and value proposition."
+    }
+}

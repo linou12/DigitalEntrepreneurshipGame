@@ -1,0 +1,52 @@
+{
+    "Idea 1": {
+        "Not Optimal MVP": "Investing heavily in TV and print marketing.",
+        "Reason": "TV and print marketing require significant budgets and don't offer quick feedback or easy adjustment of marketing messages unlike online marketing channels.",
+        "Feedback": "This approach may lead to spending a lot of money on untested marketing avenues, risking a significant part of the initial budget without validation that the product strikes a chord with customers."
+    },
+    "Idea 2": {
+        "Not Optimal MVP": "Engineering a range of bamboo bicycle variants (road, mountain, hybrid) before validating interest.",
+        "Reason": "This multiplies product development costs without proven demand.",
+        "Feedback": "This approach could diffuse focus and resources, making the market test less conclusive and increasing the upfront investment risk."
+    },
+    "Idea 3": {
+        "Not Optimal MVP": "Launching in multiple countries simultaneously.",
+        "Reason": "This would significantly increase the complexities, costs and operational challenges without validation in any single market.",
+        "Feedback": "This could lead to a lack of focus and increased costs, potentially jeopardizing the sustainability of the startup."
+    },
+    "Idea 4": {
+        "Not Optimal MVP": "Building a sophisticated eCommerce website with numerous features and integrations before validating the interest.",
+        "Reason": "This can lead to investing time and resources into features that may not be necessary or appreciated by the customers.",
+        "Feedback": "A simpler and more straightforward website or even a landing page could be more effective and cost-efficient at this early stage."
+    },
+    "Idea 5": {
+        "Not Optimal MVP": "Purchasing a physical retail space before validating market interest.",
+        "Reason": "This would entail a large upfront cost and commitment, without knowing if there is sufficient demand for this product in the area.",
+        "Feedback": "Without prior proof of interest, such a move may risk significant capital and possibly the viability of the business. Online pre-orders or popup stores could be less risky initial steps."
+    },
+    "Idea 6": {
+        "Not Optimal MVP": "Investing in a large-scale production line from day one.",
+        "Reason": "Investing heavily in the production line before understanding the demand can significantly increase financial risk.",
+        "Feedback": "A smaller, perhaps more costly per unit, production capability is a safer option until there is clear evidence of sustainable demand."
+    },
+    "Idea 7": {
+        "Not Optimal MVP": "Hiring a large team from the beginning.",
+        "Reason": "A large team increases the operational costs before the company has generated any revenue or validated demand.",
+        "Feedback": "This could put unnecessary pressure on the business and could drain resources that may be needed for other aspects of the business."
+    },
+    "Idea 8": {
+        "Not Optimal MVP": "Patenting the bamboo bicycle concept immediately.",
+        "Reason": "The patent process can be time-consuming and costly before there's validation that the concept is marketable and profitable.",
+        "Feedback": "Filing for patents prematurely might take away resources better used for prototyping, marketing, and other essential startup tasks. Focusing on market validation first would be a better strategy."
+    },
+    "Idea 9": {
+        "Not Optimal MVP": "Hiring a PR firm for a large-scale press campaigns.",
+        "Reason": "This would incur a big cost without knowing whether the product will resonate with consumers.",
+        "Feedback": "Instead, the company could initially leverage low-cost methods like social media or influencers to get the word out."
+    },
+    "Idea 10": {
+        "Not Optimal MVP": "Professional high budget product photoshoot.",
+        "Reason": "This would incur a significant cost upfront without knowing if the images will have the desired impact on the target audience.",
+        "Feedback": "The company would be better off using amateur or less expensive professional photography in its early stages, with a focus on authenticity and sustainability rather than costly professional shoots."
+    }
+}

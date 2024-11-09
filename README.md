@@ -1,1 +1,1 @@
-# DigitalEntrepreneurshipGame
+# Digital Entrepreneurship Game
