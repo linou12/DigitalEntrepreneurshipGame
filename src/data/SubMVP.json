@@ -1,47 +1,52 @@
 {
     "Idea 1": {
-        "Suboptimal MVP": "Launching a crowdfunding campaign without a prototype.",
-        "Reason": "This approach reduces up-front costs and potentially generates initial seed funding. It can act as a test run to estimate interest in the product without needing to present a physical product.",
-        "Feedback": "In theory, this approach seems cost-effective. A crowdfunding campaign, however, hinges on demonstrating a product\u2019s potential and capturing potential backers' imaginations, a task more readily accomplished with a tangible prototype.\"\n},\n  \"Idea 2\": {\n    \"Suboptimal MVP\": \"Partnering with bamboo suppliers in China to provide a 'design-your-own' bike service.\",\n    \"Reason\": \"This option allows for customization and a direct connection with the suppliers. It also tests market interest in custom bikes.\",\n    \"Feedback\": \"While customization is attractive, it introduces significant complexity and possible delays. The best initial approach is often a simplified, standardized product to test basic demand."
+        "Suboptimal MVP": "Promoting through Environmental Events",
+        "Description": "Displaying the BambooBike in various environmental friendly events and fairs and spreading word about it through flyers.",
+        "Feedback": "While connecting directly with a potentially eco-conscious audience is a good idea, the reach is significantly limited compared to methods like online marketing or pre-orders. The effort verses impact ratio might not be as high and hard to measure."
     },
     "Idea 2": {
-        "Suboptimal MVP": "Massive production rush, making & selling as many bicycles as possible.",
-        "Reason": "This strategy tests the market's appetite for the product at full scale.",
-        "Feedback": "Producing at full scale before verifying market demand risks excessive product waste and severe financial loss if it is unsold."
+        "Suboptimal MVP": "'Crowdfunding Campaign'",
+        "Description": "Launching a crowdfunding campaign on platforms like Kickstarter or Indiegogo to drum up support and gather funds for the bamboo bicycle project.",
+        "Feedback": "Kickstarter allows for great exposure and feedback, but is also risky because it publicly puts the product and brand reputation on the line before there's a proven customer base and before the product potentially being finalized."
     },
     "Idea 3": {
-        "Suboptimal MVP": "Pitching and selling the product at local farm markets.",
-        "Reason": "Potential for immediate feedback and sales while promoting sustainability.",
-        "Feedback": "Local market environments may target a niche audience which may not represent the true market potential."
+        "Suboptimal MVP": "Renting out Bamboo Bicycles",
+        "Description": "Rent out the prototype bicycles in popular parks and recreational areas to gain visibility and feedback.",
+        "Feedback": "While it may provide widespread exposure, being a rental object might not align well with the perceived value of the product. Keeping track of rentals and ensuring the bicycles' return could also add an unnecessary layer of complexity to the business at this early stage."
     },
     "Idea 4": {
-        "Suboptimal MVP": "Setting up a physical store in a high-traffic area before launching online.",
-        "Reason": "Seeing and testing the product in store could stimulate impulse purchasing.",
-        "Feedback": "High setup costs coupled with the limited reach of a physical store makes this a risky option without prior online demand validation."
+        "Suboptimal MVP": "Pop-up Shops",
+        "Description": "Setting up pop-up shops in busy urban areas to sell bamboo bicycles directly.",
+        "Feedback": "Pop-up shops usually thrive on impulse buying, which may not align well with the price point and niche market of a bamboo bike. Location costs and permits can be expensive, and there's a risk of remaining unsold inventory."
     },
     "Idea 5": {
-        "Suboptimal MVP": "Utilize influencer marketing to promote pre-orders on a social media platform.",
-        "Reason": "Influencers with significant followers in the sustainable living space can boost visibility.",
-        "Feedback": "The high cost of influencer marketing requires knowing that the product-market fit exists. Feedback from influencer's followers may be skewed by the 'celebrity effect'."
+        "Suboptimal MVP": "Local Partnerships",
+        "Description": "Partnering with local businesses and displaying bamboo bicycles on their premises or organizing joint promotional activities.",
+        "Feedback": "Although this method can offer localized exposure, it may lack scalability and reach. Also, the partner's business needs to align well with your brand's image and values."
     },
     "Idea 6": {
-        "Suboptimal MVP": "Offering a subscription model with regular maintenance included.",
-        "Reason": "This unique business model could attract customers desiring hassle-free ownership.",
-        "Feedback": "The subscription model's complexity and possible customer hesitation due to being locked into a multi-year deal make this suboptimal."
+        "Suboptimal MVP": "Collaboration with Influencers",
+        "Description": "Engaging sustainable lifestyle influencers on social media platforms to promote bamboo bicycle products.",
+        "Feedback": "Influencer partnerships can work but your brand is putting a lot of faith in another party to represent it accurately and favourably. This can escalate if the influencer exercises poor judgment."
     },
     "Idea 7": {
-        "Suboptimal MVP": "Building an expensive and wide-ranging e-commerce platform.",
-        "Reason": "It provides a variety of purchasing options to customers and showcases all previous and ongoing projects.",
-        "Feedback": "Developing an expensive and extensive e-commerce platform prior to proof of concept and product-market validation could result in wasted resources."
+        "Suboptimal MVP": "Free Trial Offers",
+        "Description": "Providing potential customers with an option to try out the bamboo bicycle free of charge for a limited duration.",
+        "Feedback": "While it might generate interest, it could potentially attract only those customers who are enticed by free offers and not necessarily those willing to purchase the product."
     },
     "Idea 8": {
-        "Suboptimal MVP": "Hiring an expensive PR firm to launch a huge marketing campaign.",
-        "Reason": "High-visibility marketing could create a lot of buzz and interest.",
-        "Feedback": "Without proof of product-market fit, this big-budget approach could quickly deplete resources with little ROI."
+        "Suboptimal MVP": "Exhibiting in Bicycle Retail Stores",
+        "Description": "Displaying the product in existing bicycle retail stores to leverage their customer base.",
+        "Feedback": "While it may provide visibility, it can't guarantee qualified customers. It might also misalign the brand as a regular bicycle brand instead of a sustainable and unique offering."
     },
     "Idea 9": {
-        "Suboptimal MVP": "Offering bike leasing options instead of sales.",
-        "Reason": "Leasing can widen the customer base by reducing the initial purchase barrier.",
-        "Feedback": "Bike leasing is more complex and risk-prone due to issues like damage or theft. It might detract from the core product offering."
+        "Suboptimal MVP": "Pitching to Bicycle Clubs & Groups",
+        "Description": "Pitching the bamboo bicycle directly to cycling clubs and groups, both online and offline.",
+        "Feedback": "It's a small segment of the available market and might neglect large numbers of individuals who aren't part of formal clubs or groups but could potentially be interested."
+    },
+    "Idea 10": {
+        "Suboptimal MVP": "Door-to-Door Sales Approach",
+        "Description": "Introducing the bamboo bicycle to potential customers by directly visiting them with a prototype and trying to secure orders.",
+        "Feedback": "This is high effort with uncertain results. This might be seen as intrusive and doesn't necessarily reach the core market demographic."
     }
 }

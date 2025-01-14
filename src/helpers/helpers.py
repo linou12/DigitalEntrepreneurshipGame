@@ -4,8 +4,17 @@ import json
 
 
 def extract_optimal_mvp(results):
-    # Extract the optimal ideas from the response
-    pattern = r'"Idea \d+": \{\n\s+"Optimal MVP": "(.*?)",\n\s+"Reason": "(.*?)",\n\s+"Feedback": "(.*?)"\n\s+\}'
+    """
+    Extract optimal MVP ideas from the provided response text and save them as a JSON file.
+
+    Args:
+        results (str): The response string containing MVP ideas.
+
+    Returns:
+        dict: A dictionary of extracted ideas.
+    """
+    # Update the regex pattern to match the correct field names
+    pattern = r'"Idea \d+": \{\n\s+"Optimal MVP": "(.*?)",\n\s+"Description": "(.*?)",\n\s+"Feedback": "(.*?)"\n\s+\}'
 
     # Find all matches in the response text
     matches = re.findall(pattern, results, re.DOTALL)
@@ -17,10 +26,11 @@ def extract_optimal_mvp(results):
     for i, match in enumerate(matches, start=1):
         ideas[f"Idea {i}"] = {
             "Optimal MVP": match[0],
-            "Reason": match[1],
+            "Description": match[1],
             "Feedback": match[2],
         }
-        # Save the ideas dictionary to a JSON file
+
+    # Save the ideas dictionary to a JSON file
     with open("data/OMVP.json", "w") as json_file:
         json.dump(ideas, json_file, indent=4)
 
@@ -28,32 +38,55 @@ def extract_optimal_mvp(results):
 
 
 def extract_suboptimal_mvp(results):
-    # Extract the optimal ideas from the response
-    pattern = r'"Idea \d+": \{\n\s+"Suboptimal MVP": "(.*?)",\n\s+"Reason": "(.*?)",\n\s+"Feedback": "(.*?)"\n\s+\}'
+    try:
+        # Parse the JSON-like string into a Python dictionary
+        ideas = json.loads(results)
 
-    # Find all matches in the response text
-    matches = re.findall(pattern, results, re.DOTALL)
+        # Format the extracted ideas into a new dictionary
+        formatted_ideas = {}
+        for key, value in ideas.items():
+            formatted_ideas[key] = {
+                "Suboptimal MVP": value.get("Suboptimal MVP", ""),
+                "Description": value.get("Description", ""),
+                "Feedback": value.get("Feedback", ""),
+            }
 
-    # Initialize a dictionary to store the ideas
-    ideas = {}
+        # Save the formatted ideas to a JSON file
+        with open("SubMVP.json", "w") as json_file:
+            json.dump(formatted_ideas, json_file, indent=4)
 
-    # Iterate over the matches and add them to the dictionary
-    for i, match in enumerate(matches, start=1):
-        ideas[f"Idea {i}"] = {
-            "Suboptimal MVP": match[0],
-            "Reason": match[1],
-            "Feedback": match[2],
-        }
-        # Save the ideas dictionary to a JSON file
-    with open("data/SubMVP.json", "w") as json_file:
-        json.dump(ideas, json_file, indent=4)
+        print("Suboptimal MVP ideas successfully saved to 'SubMVP.json'.")
+        return formatted_ideas
 
-    return ideas
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON: {e}")
+        return {}
+    # # Extract the optimal ideas from the response
+    # pattern = r'"Idea \d+": \{\n\s+"Suboptimal MVP": "(.*?)",\n\s+"Description": "(.*?)",\n\s+"Feedback": "(.*?)"\n\s+\}'
+
+    # # Find all matches in the response text
+    # matches = re.findall(pattern, results, re.DOTALL)
+
+    # # Initialize a dictionary to store the ideas
+    # ideas = {}
+
+    # # Iterate over the matches and add them to the dictionary
+    # for i, match in enumerate(matches, start=1):
+    #     ideas[f"Idea {i}"] = {
+    #         "Suboptimal MVP": match[0],
+    #         "Description": match[1],
+    #         "Feedback": match[2],
+    #     }
+    #     # Save the ideas dictionary to a JSON file
+    # with open("data/SubMVP.json", "w") as json_file:
+    #     json.dump(ideas, json_file, indent=4)
+
+    # return ideas
 
 
 def extract_not_optimal_mvp(results):
     # Extract the optimal ideas from the response
-    pattern = r'"Idea \d+": \{\n\s+"Not Optimal MVP": "(.*?)",\n\s+"Reason": "(.*?)",\n\s+"Feedback": "(.*?)"\n\s+\}'
+    pattern = r'"Idea \d+": \{\n\s+"Not Optimal MVP": "(.*?)",\n\s+"Description": "(.*?)",\n\s+"Feedback": "(.*?)"\n\s+\}'
 
     # Find all matches in the response text
     matches = re.findall(pattern, results, re.DOTALL)
@@ -65,7 +98,7 @@ def extract_not_optimal_mvp(results):
     for i, match in enumerate(matches, start=1):
         ideas[f"Idea {i}"] = {
             "Not Optimal MVP": match[0],
-            "Reason": match[1],
+            "Description": match[1],
             "Feedback": match[2],
         }
         # Save the ideas dictionary to a JSON file
